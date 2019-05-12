@@ -7,3 +7,5 @@ $array = ["caca" => "ex", "popo" => "cre", "mierda" => "mento"];
 echo $array["caca"].$array["popo"].$array["mierda"];
 $array["uno"] = "chis";
 echo "<br>".$array["uno"];
+
+var_dump($array);
