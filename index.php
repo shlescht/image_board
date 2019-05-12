@@ -6,6 +6,6 @@ echo 'imprime:<br>';
 $array = ["caca" => "ex", "popo" => "cre", "mierda" => "mento"];
 echo $array["caca"].$array["popo"].$array["mierda"];
 $array["uno"] = "chis";
-echo "<br>".$array["uno"];
+echo "<br>".$array["uno"]."<br>";
 
 var_dump($array);
