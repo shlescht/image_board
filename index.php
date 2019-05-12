@@ -1,8 +1,7 @@
 <?php
-echo "Todos los arreglos empiezan en 0";
-echo '0 es el lugar del arreglo, "cero" es el valor de ese lugar dentro del arreglo';
-$array = [0 => "cero", 1 => "uno", 2 => "dos"];
-for ($i=0; $i < 2; $i++) {
-  echo $array[$i] . "<br>";
-}
-echo "Ra&uacute;l menso :D";
+echo "primer parametro es lugar del arreglo.<br>";
+echo 'segundo lugar el valor del lugar en el arreglo.<br>';
+echo 'array = [<i>"caca"</i> => <b>"ex"</b>, <i>"popo"</i> => <b>"cre"</b>, <i>"mierda"</i> => <b>"mento"]</b><br>';
+echo 'imprime:<br>';
+$array = ["caca" => "ex", "popo" => "cre", "mierda" => "mento"];
+echo $array["caca"].$array["popo"].$array["mierda"];
