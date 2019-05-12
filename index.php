@@ -5,3 +5,5 @@ echo 'array = [<i>"caca"</i> => <b>"ex"</b>, <i>"popo"</i> => <b>"cre"</b>, <i>"
 echo 'imprime:<br>';
 $array = ["caca" => "ex", "popo" => "cre", "mierda" => "mento"];
 echo $array["caca"].$array["popo"].$array["mierda"];
+$array["uno"] = "chis";
+echo "<br>".$["uno"];
